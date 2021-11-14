@@ -1,5 +1,5 @@
 # Borscht-soup
-Easy way to use web-srap automations
+Easy way to use web-scrap automations
 
 # The program is under development official release->1/12/2021
 
