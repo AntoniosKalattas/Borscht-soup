@@ -5,4 +5,4 @@ Easy way to use web-srap automations
 
 # Requiered dependencies
     "dependencies": {
-    "electron": "^15.3.1"
+    "electron": "^15.3.1"}
