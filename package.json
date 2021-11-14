@@ -9,9 +9,7 @@
   "author": "Antonios Kalattas",
   "license": "UNLICENSED",
   "dependencies": {
-    "electron": "^15.3.1",
-    "python-shell": "^3.0.1",
-    "requirejs": "^2.3.6"
+    "electron": "^15.3.1"
   },
   "devDependencies": {
     "eslint": "^8.2.0"
