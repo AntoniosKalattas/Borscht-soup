@@ -9,7 +9,7 @@ function createWindow(){
     mainWindow = new BrowserWindow({
         width:1280,
         height:720,
-        title:'G Tehniki Sholi',
+        title:'AKalattas demo app',
         frame: true,
         icon: false,
         webPreferences: {
