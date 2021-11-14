@@ -17,6 +17,6 @@ function createWindow(){
             contextIsolation: false
         }
     });
-    mainWindow.loadURL(`file://${__dirname}//main.html`);
+    mainWindow.loadURL(`file://${__dirname}//main_screen.html`);
 }
 app.on('ready', createWindow);
