@@ -1,7 +1,7 @@
 # Borscht-soup
 Easy way to use web-scrap automations
 
-# The program is under development official release->1/12/2022
+# The program is under development official release->1/02/2022
 
 # Requiered dependencies
     "dependencies": {
