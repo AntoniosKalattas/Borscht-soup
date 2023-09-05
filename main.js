@@ -1,6 +1,7 @@
 const { spawn } = require('child_process');
 //const bootstrap = require('bootstrap')
 let elements_to_find = 0;
+let sleep = 0;
 //https://www.ucy.ac.cy/aasw/studies/undergraduate-studies/schedule-classes/
 function exec_py() {
     const pyscript = spawn('python', ['main_script.py', elements_to_find, url, element]);
@@ -16,6 +17,14 @@ function exec_py() {
     pyscript.on('close', (code) => {
         console.log(`script exited with code ${code}`);
     });
+}
+
+function add_sleep(){
+  sleep++;
+  const ul = document.createElement('ul');
+    //button for sleep
+    ul.innerHTML=`<li><input id= "sl${sleep}" type="number" name="secs of sleep" min="1" max="1000" onclick="stopPropagation(event)"></li>`;
+    document.querySelector(`#${id}`).appendChild(ul);;
 }
 
 function add_element(){
@@ -89,7 +98,7 @@ function collect_data(){
           }
     }
     console.log(type , clicks)
-    //exec_py(url, element)
+    exec_py(url, element)
 }
 
 //btn.addEventListener("click", exec_py);
